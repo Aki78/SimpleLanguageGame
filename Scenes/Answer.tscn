@@ -1,0 +1,23 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Scripts/Answer.gd" type="Script" id=1]
+[ext_resource path="res://Fonts/new_dynamicfont.tres" type="DynamicFont" id=2]
+
+[node name="Answer1" type="Label"]
+margin_top = -1.0
+margin_right = 327.0
+margin_bottom = 99.0
+rect_min_size = Vector2( 327, 100 )
+custom_fonts/font = ExtResource( 2 )
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+text = "Anwer!"
+align = 1
+valign = 1
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Color1" type="Tween" parent="."]
+
+[node name="Color2" type="Tween" parent="."]
